@@ -1,0 +1,324 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topmenu{
+    background-color: #2a2a2a;
+    opacity: .5;
+    width: 1280px; 
+    height: 65px;
+    top: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15;
+    position:fixed;
+    z-index: 1; 
+}
+.lefttopmenu{
+    display: flex;
+}
+
+
+
+.imageinput{
+ position:relative;
+}
+
+
+
+
+
+.topmenu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+ 
+.mainpageimage img{
+    position:relative;
+    width: 1280px;
+    height: 721px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.bannerlogo {
+    align-items: center;
+    color: #ffffff;
+    position: absolute;
+    left: 40%;
+    right: 50%;
+    top: 25%;
+}
+.lefttopshape{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+.righttopshape{
+    position: absolute;
+    right: 20px;
+    top: 80px;
+}
+.bottomleftshape{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.bottomrightshape{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.arrowshape{
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+    left: 50%;
+}
+.image img{
+    height: 80px;
+    width: 70px;
+}
+.bannerlogo img{
+    width: 242px;
+    height: 85;
+    color: #ffffff;
+}
+
+.navnames {
+    margin-top: 20px;
+    width: auto;
+}
+.topmenu span{
+    padding-right: 20px;
+}
+.homeicon{
+    margin-right: 20px;
+}
+.middletext {
+    font-size: 15;
+    width: 387px;
+    height: 33px;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    left: 38%;
+    bottom: 50%;
+}
+.middletext a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+.paragraph{
+    height: 338px;
+    display: flex; 
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.paragraph h2{
+    font-size: 39px;
+    padding-bottom: 30px;
+}
+.paragraph p{
+    padding-bottom: 27px;
+    color: #18233A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.tigerpara{
+    display: flex;
+     width: auto;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 40px;
+}
+.tigerimg img {
+    width: 640px;
+    height: 596px; 
+    object-fit: cover;
+}
+.roundicons{
+    display: flex;
+    padding-top: 20px;
+}
+.para2 button{
+    color: #ffffff;
+    background-color: #18233A;
+    border: none;
+    border-radius: 3px;
+    width: 168px;
+    height: 50px;
+}
+.para2  h3{
+    padding-top: 60px;
+    padding-bottom: 20px;  
+}
+.para2 p{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.para2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    height: 596px;
+}
+.contentline{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.contentline a{
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 30px;
+}
+.contentline h1{
+    padding-top: 10px;
+}
+.contentimg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contentimg img{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+}
+
+.roundicons div {
+    margin-right: 10px;
+}
+
+.roundicons div:last-child{
+    margin-right: 0;
+}
+.businessline{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+}
+.businessline a{
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 30px;
+}
+.businessline h1{
+    padding-bottom: 20px;
+}
+.business .capital{
+    display: flex;
+    width: 25%;
+}
+.airline{
+    width: 50%;
+    background-color: #fbfbfb;
+}
+.business{
+    background-color: #fbfbfb;
+    padding-left: 40px;
+    line-height: 30px;
+}
+.businesslineimg{
+    display: flex;
+}
+.businessimg img{
+    width: 320px;
+    height: auto;
+}
+.airlineimg img {
+    display: flex;
+    width: 640px;
+    height: 213.25px;
+    object-fit: cover;
+}
+.capitalimg img {
+    display: flex;
+    width: 320px;
+    height: auto;
+}
+.partner img{
+    width: 240px;
+    height: auto;
+}
+hr{
+    width: 10%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.partner{
+    padding: 20px 0px;
+}
+.lastcontent{
+    display: flex;
+}
+.lastcontent div{
+    background-color: #162239;
+    width: 25%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.arrow{
+    padding-bottom: 10px;
+    color: #a2a7b0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.lastcontent a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
+}
+footer{
+    height:auto;
+    background-color: #0f1a2f;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+}
+.rightfooter{
+    display: flex;
+    align-items: center;
+}
+.leftfooter{
+    display: flex;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.rightfooter a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.copyright{
+    padding-left: 30px;
+}
